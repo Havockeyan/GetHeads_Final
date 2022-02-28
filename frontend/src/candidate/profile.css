@@ -1,0 +1,43 @@
+#card{
+    background-color: rgb(243, 242, 240);
+    width: 50%;
+    position: relative;
+    left: 25%;
+    margin-top: 5%;
+    padding: 20px;
+    box-shadow: 2px 2px 9px 2px #303030;
+}
+
+h1,h2{
+    font-family:monospace;
+    color: rgb(46, 46, 46);
+}
+
+#but1{
+    float: left;
+    position: relative;
+    left: -0%;
+    border-radius: 4px;
+    font-size: 15px;
+    padding: 4px;
+    border: 1px solid rgb(83, 82, 82);
+}
+#but1:hover{
+    background-color: rgb(216, 33, 33);
+    color: beige;
+    border: 1px solid rgb(19, 116, 228);
+}
+
+#but2{
+    position: relative;
+    border-radius: 4px;
+    font-size: 15px;
+    padding: 5px;
+    left: 77%;
+    border: 1px solid rgb(83, 82, 82);
+}
+#but2:hover{
+    background-color: rgb(19, 116, 228);
+    color: beige;
+    border: 1px solid rgb(19, 116, 228);
+}

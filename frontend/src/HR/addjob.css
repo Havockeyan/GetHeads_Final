@@ -1,0 +1,17 @@
+#jobcard{
+  
+        background-color: rgb(218, 178, 99);
+        width: 50%;
+        position: relative;
+        left: 25%;
+        margin-top: 5%;
+        padding: 20px;
+        box-shadow: 2px 2px 9px 2px #aaaaaa;
+}
+label{
+    color: black;
+}
+#title,#dsc,#jname{
+    height: 25px;
+    width: 400px;
+}

@@ -1,0 +1,33 @@
+#post{
+    background-color: rgb(43, 183, 226);
+    margin: 15px;
+}
+#details{
+    padding: 15px;
+}
+#head{
+    color: rgb(255, 255, 255);
+}
+h3:nth-child(3)
+{
+    color: brown;
+}
+#head1{
+    text-align: center;
+}
+.button{
+    padding: 7px;
+    position: relative;
+    left: 0;
+    background-color:white;
+    border: none;
+    font-size: 12px;
+    font-weight: bold;
+}
+.button:hover{
+    background-color: rgb(5, 212, 50);
+    border: 2px solid rgb(103, 248, 6);
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    cursor: pointer;
+}

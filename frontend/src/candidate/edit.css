@@ -1,0 +1,27 @@
+#maincard{
+    background-color: rgb(250, 246, 241);
+    padding: 20px;
+    width: 40%;
+  margin-top: 5%;
+  box-shadow: 2px 2px 9px 2px #aaaaaa;
+  margin-left: 29%;
+}
+#name,#age,#exp,#add,#dob{
+    height: 24px;
+    font-size: 16px;
+    color: rgb(59, 59, 58);
+}
+#label{
+    color: rgb(245, 203, 13);
+}
+#button{
+    border-radius: 4px;
+    font-size: 16px;
+    padding: 5px;
+    border: 1px solid rgb(83, 82, 82);
+}
+#button:hover{
+    background-color: rgb(19, 116, 228);
+    color: beige;
+    border: 1px solid rgb(19, 116, 228);
+}

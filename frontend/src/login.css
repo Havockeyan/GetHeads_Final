@@ -1,0 +1,62 @@
+#Container{
+    background-color: rgb(233, 181, 12);
+    padding: 25px;
+    width: 25%;
+    position: relative;
+    left: 37%;
+    margin-top: 8%;
+    box-shadow: 2px 2px 9px 2px #3f3e3e;
+}
+label{
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+}
+
+button{
+    font-size: 17px;
+    cursor: pointer;
+    position: relative;
+    left: 40%;
+}
+#but-1:hover{
+    color: white;
+    background-color: rgb(58, 56, 56);
+    border: 1px solid  rgb(58, 56, 56);
+}
+#log{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    padding: 20px;
+    background-color: rgb(58, 56, 56);
+}
+#lab{
+    color: white;
+}
+.body{
+    margin: 0;
+    top: 0;
+}
+#role,#op{
+    height: 30px;
+    font-size: 15px;
+}
+.butad{
+    cursor: pointer;
+    margin-left: -42%;
+}
+.butcan{
+    position: relative;
+   margin-left: 70px;
+   cursor: pointer;
+}
+.butad:hover{
+    color: white;
+    background-color: rgb(58, 56, 56);
+    border: 1px solid  rgb(58, 56, 56);
+}
+.butcan:hover{
+    color: white;
+    background-color: rgb(58, 56, 56);
+    border: 1px solid  rgb(58, 56, 56);
+}

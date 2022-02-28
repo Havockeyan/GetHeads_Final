@@ -1,0 +1,25 @@
+#list{
+    list-style-type: none;
+    display:inline-block;
+}
+li {
+    display: inline;
+    padding: 20px;
+    margin: 0px;
+    color: white;
+    cursor: pointer;
+}
+#nav{
+    background-color: rgb(61, 60, 60);
+    position: sticky;
+    top: 0;
+}
+a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    padding: 7px;
+}
+
+a:hover{
+    color: rgb(3, 247, 206);
+}

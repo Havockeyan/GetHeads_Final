@@ -1,0 +1,67 @@
+.grid{
+    padding: 50px;
+    background-color: rgb(80, 79, 79);
+}
+.grid h3{
+    text-align: center;
+    font-size: 30px;
+    color: rgba(255, 250, 250, 0.918);
+    text-decoration:underline;
+    padding-bottom: 20px;
+}
+.grid .grid-items div{
+    background-color: rgb(212, 209, 209);
+    margin: 20px 58px;
+    padding: 12px;
+    border-radius: 10px;
+    display: grid;
+    grid-gap: .1cm;
+    grid-template-columns: repeat(1,1fr);
+    float: left;
+}
+.grid .grid-items div img{
+border-radius: 10px;
+}
+.grid .grid-items div h4{
+    padding: 7px 0px;
+    font-size: 20px;
+}
+
+.grid .grid-items div p{
+    line-height: 1.8;
+}
+.dinfo{
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color:cyan;
+    font-size: .8cm;
+}
+.para{
+    font-size: 20px;
+    font-family:sans-serif;
+    font-weight:300;
+    color: rgb(255, 255, 255);
+}
+.names{
+    color: black;
+}
+.vision{
+    font-size: .6cm;
+    color: rgb(219, 186, 36);
+}
+.obj{
+    font-size: .6cm;
+    color: rgb(255, 255, 255);
+}
+.objc{
+    color: darkred;
+}
+.mission{
+    color: darkred;
+    text-align: center;
+    font-size: .7cm;
+}
+.bgdiv{
+    background-color: black;
+    width: 4.1cm;
+}
