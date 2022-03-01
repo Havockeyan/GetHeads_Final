@@ -5,15 +5,15 @@ const bodyparser = require('body-parser');
 const multer = require("multer");
 const path = require('path');
 const nanoid = require('nanoid').nanoid;
-require('dotenv').config()
-const app = express()
+require('dotenv').config();
+const app = express();
 
 app.use(bodyparser.json());
 
 //Database Coonection
-mongoose.connect(process.env.MONGO_URI)
+mongoose.connect(process.env.MONGO_URI || "mongodb+srv://admin:admin99@cluster0.pu7h1.mongodb.net/headsdb?retryWrites=true&w=majority")
     .then(err => {
-        console.log('Database Connected Successfully!!')
+        console.log('Database Connected Successfully!!');
     })
 
 
